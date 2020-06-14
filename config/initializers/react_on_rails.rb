@@ -38,7 +38,7 @@ ReactOnRails.configure do |config|
   # different. You should have ONE server bundle which can create all of your server rendered
   # React components.
   #
-  config.server_bundle_js_file = "hello-world-bundle.js"
+  config.server_bundle_js_file = "server-bundle.js"
 
   # This value only affects server-side rendering when using the webpack-dev-server
   # If you are hashing the server bundle and you want to use the same bundle for client and server,
@@ -47,5 +47,5 @@ ReactOnRails.configure do |config|
   # Furthermore, if you are not hashing the server bundle (not in the manifest.json), then React on Rails
   # will only look for the server bundle to be created in the typical file location, typically by
   # a `webpack --watch` process.
-  config.same_bundle_for_client_and_server = true
+  config.same_bundle_for_client_and_server = false
 end

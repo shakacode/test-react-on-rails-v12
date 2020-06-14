@@ -12,7 +12,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-on-rails": "file:.yalc/react-on-rails",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "webpack-merge": "^4.2.2"
   },
   "version": "0.1.0",
   "devDependencies": {

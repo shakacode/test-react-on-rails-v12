@@ -6,10 +6,7 @@ const HelloWorld = (props) => {
 
   return (
     <div>
-      <h3>
-        Hello,
-        {name}!
-      </h3>
+      <h3>Hello, {name}!</h3>
       <hr />
       <form>
         <label htmlFor="name">
